@@ -38,3 +38,14 @@ docstring (problem summary, approach, complexity) and a runnable test block
 | 242 | Valid Anagram | Easy | [0242-valid-anagram.py](0242-valid-anagram.py) |
 
 **Total solved: 28**
+
+| 94 | Binary Tree Inorder Traversal | Medium | [0094-binary-tree-inorder-traversal.py](0094-binary-tree-inorder-traversal.py) |
+| 101 | Symmetric Tree | Easy | [0101-symmetric-tree.py](0101-symmetric-tree.py) |
+| 102 | Binary Tree Level Order Traversal | Medium | [0102-binary-tree-level-order-traversal.py](0102-binary-tree-level-order-traversal.py) |
+| 167 | Two Sum II - Input Array Is Sorted | Medium | [0167-two-sum-ii-input-array-is-sorted.py](0167-two-sum-ii-input-array-is-sorted.py) |
+| 169 | Majority Element | Easy | [0169-majority-element.py](0169-majority-element.py) |
+| 198 | House Robber | Medium | [0198-house-robber.py](0198-house-robber.py) |
+| 200 | Number of Islands | Medium | [0200-number-of-islands.py](0200-number-of-islands.py) |
+| 217 | Contains Duplicate | Easy | [0217-contains-duplicate.py](0217-contains-duplicate.py) |
+| 238 | Product of Array Except Self | Medium | [0238-product-of-array-except-self.py](0238-product-of-array-except-self.py) |
+| 322 | Coin Change | Medium | [0322-coin-change.py](0322-coin-change.py) |
