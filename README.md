@@ -30,22 +30,21 @@ docstring (problem summary, approach, complexity) and a runnable test block
 | 66 | Plus One | Easy | [0066-plus-one.py](0066-plus-one.py) |
 | 70 | Climbing Stairs | Easy | [0070-climbing-stairs.py](0070-climbing-stairs.py) |
 | 88 | Merge Sorted Array | Easy | [0088-merge-sorted-array.py](0088-merge-sorted-array.py) |
+| 94 | Binary Tree Inorder Traversal | Medium | [0094-binary-tree-inorder-traversal.py](0094-binary-tree-inorder-traversal.py) |
+| 101 | Symmetric Tree | Easy | [0101-symmetric-tree.py](0101-symmetric-tree.py) |
+| 102 | Binary Tree Level Order Traversal | Medium | [0102-binary-tree-level-order-traversal.py](0102-binary-tree-level-order-traversal.py) |
 | 104 | Maximum Depth of Binary Tree | Easy | [0104-maximum-depth-of-binary-tree.py](0104-maximum-depth-of-binary-tree.py) |
 | 121 | Best Time to Buy and Sell Stock | Easy | [0121-best-time-to-buy-and-sell-stock.py](0121-best-time-to-buy-and-sell-stock.py) |
 | 125 | Valid Palindrome | Easy | [0125-valid-palindrome.py](0125-valid-palindrome.py) |
 | 136 | Single Number | Easy | [0136-single-number.py](0136-single-number.py) |
-| 206 | Reverse Linked List | Easy | [0206-reverse-linked-list.py](0206-reverse-linked-list.py) |
-| 242 | Valid Anagram | Easy | [0242-valid-anagram.py](0242-valid-anagram.py) |
-
-**Total solved: 28**
-
-| 94 | Binary Tree Inorder Traversal | Medium | [0094-binary-tree-inorder-traversal.py](0094-binary-tree-inorder-traversal.py) |
-| 101 | Symmetric Tree | Easy | [0101-symmetric-tree.py](0101-symmetric-tree.py) |
-| 102 | Binary Tree Level Order Traversal | Medium | [0102-binary-tree-level-order-traversal.py](0102-binary-tree-level-order-traversal.py) |
 | 167 | Two Sum II - Input Array Is Sorted | Medium | [0167-two-sum-ii-input-array-is-sorted.py](0167-two-sum-ii-input-array-is-sorted.py) |
 | 169 | Majority Element | Easy | [0169-majority-element.py](0169-majority-element.py) |
 | 198 | House Robber | Medium | [0198-house-robber.py](0198-house-robber.py) |
 | 200 | Number of Islands | Medium | [0200-number-of-islands.py](0200-number-of-islands.py) |
+| 206 | Reverse Linked List | Easy | [0206-reverse-linked-list.py](0206-reverse-linked-list.py) |
 | 217 | Contains Duplicate | Easy | [0217-contains-duplicate.py](0217-contains-duplicate.py) |
 | 238 | Product of Array Except Self | Medium | [0238-product-of-array-except-self.py](0238-product-of-array-except-self.py) |
+| 242 | Valid Anagram | Easy | [0242-valid-anagram.py](0242-valid-anagram.py) |
 | 322 | Coin Change | Medium | [0322-coin-change.py](0322-coin-change.py) |
+
+**Total solved: 38**
