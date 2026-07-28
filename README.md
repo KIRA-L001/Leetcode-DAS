@@ -43,8 +43,18 @@ docstring (problem summary, approach, complexity) and a runnable test block
 | 200 | Number of Islands | Medium | [0200-number-of-islands.py](0200-number-of-islands.py) |
 | 206 | Reverse Linked List | Easy | [0206-reverse-linked-list.py](0206-reverse-linked-list.py) |
 | 217 | Contains Duplicate | Easy | [0217-contains-duplicate.py](0217-contains-duplicate.py) |
+| 226 | Invert Binary Tree | Easy | [0226-invert-binary-tree.py](0226-invert-binary-tree.py) |
+| 234 | Palindrome Linked List | Easy | [0234-palindrome-linked-list.py](0234-palindrome-linked-list.py) |
 | 238 | Product of Array Except Self | Medium | [0238-product-of-array-except-self.py](0238-product-of-array-except-self.py) |
 | 242 | Valid Anagram | Easy | [0242-valid-anagram.py](0242-valid-anagram.py) |
+| 283 | Move Zeroes | Easy | [0283-move-zeroes.py](0283-move-zeroes.py) |
+| 300 | Longest Increasing Subsequence | Medium | [0300-longest-increasing-subsequence.py](0300-longest-increasing-subsequence.py) |
 | 322 | Coin Change | Medium | [0322-coin-change.py](0322-coin-change.py) |
+| 347 | Top K Frequent Elements | Medium | [0347-top-k-frequent-elements.py](0347-top-k-frequent-elements.py) |
+| 392 | Is Subsequence | Easy | [0392-is-subsequence.py](0392-is-subsequence.py) |
+| 409 | Longest Palindrome | Easy | [0409-longest-palindrome.py](0409-longest-palindrome.py) |
+| 416 | Partition Equal Subset Sum | Medium | [0416-partition-equal-subset-sum.py](0416-partition-equal-subset-sum.py) |
+| 424 | Longest Repeating Character Replacement | Medium | [0424-longest-repeating-character-replacement.py](0424-longest-repeating-character-replacement.py) |
+| 543 | Diameter of Binary Tree | Easy | [0543-diameter-of-binary-tree.py](0543-diameter-of-binary-tree.py) |
 
-**Total solved: 38**
+**Total solved: 48**
