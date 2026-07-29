@@ -24,5 +24,6 @@ def searchMatrix(matrix: List[List[int]], target: int) -> bool:
 if __name__ == "__main__":
     m = [[1,4,7,11,15],[2,5,8,12,19],[3,6,9,16,22],[10,13,14,17,24],[11,14,16,20,26]]
     assert searchMatrix(m, 5) is True
-    assert searchMatrix(m, 20) is False
+    assert searchMatrix(m, 20) is True  # 20 IS in the matrix
+    assert searchMatrix(m, 21) is False  # 21 is NOT
     print("0240 OK")
