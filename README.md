@@ -57,4 +57,4 @@ docstring (problem summary, approach, complexity) and a runnable test block
 | 424 | Longest Repeating Character Replacement | Medium | [0424-longest-repeating-character-replacement.py](0424-longest-repeating-character-replacement.py) |
 | 543 | Diameter of Binary Tree | Easy | [0543-diameter-of-binary-tree.py](0543-diameter-of-binary-tree.py) |
 
-**Total solved: 48**
+**Total solved: 68**
