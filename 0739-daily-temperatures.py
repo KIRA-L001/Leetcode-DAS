@@ -1,3 +1,4 @@
+from typing import List
 def dailyTemperatures(temperatures: List[int]) -> List[int]:
     ans=[0]*len(temperatures)
     stack=[]

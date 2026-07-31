@@ -1,3 +1,4 @@
+from typing import List
 def maxAreaOfIsland(grid: List[List[int]]) -> int:
     seen=set()
     def area(r,c):

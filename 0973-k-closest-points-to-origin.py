@@ -1,3 +1,4 @@
+from typing import List
 import heapq, math
  def kClosest(points: List[List[int]], k: int) -> List[List[int]]:
     heap=[]

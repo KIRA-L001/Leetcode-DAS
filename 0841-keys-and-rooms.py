@@ -1,3 +1,4 @@
+from typing import List
 def canVisitAllRooms(rooms: List[List[int]]) -> bool:
     visited=set(); stack=[0]
     while stack:

@@ -1,3 +1,4 @@
+from typing import List
 def minFallingPathSum(matrix: List[List[int]]) -> int:
     n=len(matrix)
     dp=matrix[0][:]
