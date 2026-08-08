@@ -22,18 +22,28 @@ docstring (problem summary, approach, complexity) and a runnable test block
 | 21 | Merge Two Sorted Lists | Easy | [0021-merge-two-sorted-lists.py](0021-merge-two-sorted-lists.py) |
 | 22 | Generate Parentheses | Medium | [0022-generate-parentheses.py](0022-generate-parentheses.py) |
 | 26 | Remove Duplicates from Sorted Array | Easy | [0026-remove-duplicates-from-sorted-array.py](0026-remove-duplicates-from-sorted-array.py) |
+| 27 | Remove Element | Easy | [0027-remove-element.py](0027-remove-element.py) |
 | 33 | Search in Rotated Sorted Array | Medium | [0033-search-in-rotated-sorted-array.py](0033-search-in-rotated-sorted-array.py) |
+| 35 | Search Insert Position | Easy | [0035-search-insert-position.py](0035-search-insert-position.py) |
+| 38 | Count and Say | Easy | [0038-count-and-say.py](0038-count-and-say.py) |
 | 46 | Permutations | Medium | [0046-permutations.py](0046-permutations.py) |
 | 49 | Group Anagrams | Medium | [0049-group-anagrams.py](0049-group-anagrams.py) |
 | 53 | Maximum Subarray | Medium | [0053-maximum-subarray.py](0053-maximum-subarray.py) |
 | 56 | Merge Intervals | Medium | [0056-merge-intervals.py](0056-merge-intervals.py) |
+| 58 | Length of Last Word | Easy | [0058-length-of-last-word.py](0058-length-of-last-word.py) |
 | 66 | Plus One | Easy | [0066-plus-one.py](0066-plus-one.py) |
+| 67 | Add Binary | Easy | [0067-add-binary.py](0067-add-binary.py) |
+| 69 | Sqrt(x) | Easy | [0069-sqrtx.py](0069-sqrtx.py) |
 | 70 | Climbing Stairs | Easy | [0070-climbing-stairs.py](0070-climbing-stairs.py) |
 | 88 | Merge Sorted Array | Easy | [0088-merge-sorted-array.py](0088-merge-sorted-array.py) |
 | 94 | Binary Tree Inorder Traversal | Medium | [0094-binary-tree-inorder-traversal.py](0094-binary-tree-inorder-traversal.py) |
+| 100 | Same Tree | Easy | [0100-same-tree.py](0100-same-tree.py) |
 | 101 | Symmetric Tree | Easy | [0101-symmetric-tree.py](0101-symmetric-tree.py) |
 | 102 | Binary Tree Level Order Traversal | Medium | [0102-binary-tree-level-order-traversal.py](0102-binary-tree-level-order-traversal.py) |
 | 104 | Maximum Depth of Binary Tree | Easy | [0104-maximum-depth-of-binary-tree.py](0104-maximum-depth-of-binary-tree.py) |
+| 110 | Balanced Binary Tree | Easy | [0110-balanced-binary-tree.py](0110-balanced-binary-tree.py) |
+| 111 | Minimum Depth of Binary Tree | Easy | [0111-minimum-depth-of-binary-tree.py](0111-minimum-depth-of-binary-tree.py) |
+| 118 | Pascal's Triangle | Easy | [0118-pascals-triangle.py](0118-pascals-triangle.py) |
 | 121 | Best Time to Buy and Sell Stock | Easy | [0121-best-time-to-buy-and-sell-stock.py](0121-best-time-to-buy-and-sell-stock.py) |
 | 125 | Valid Palindrome | Easy | [0125-valid-palindrome.py](0125-valid-palindrome.py) |
 | 136 | Single Number | Easy | [0136-single-number.py](0136-single-number.py) |
@@ -57,4 +67,4 @@ docstring (problem summary, approach, complexity) and a runnable test block
 | 424 | Longest Repeating Character Replacement | Medium | [0424-longest-repeating-character-replacement.py](0424-longest-repeating-character-replacement.py) |
 | 543 | Diameter of Binary Tree | Easy | [0543-diameter-of-binary-tree.py](0543-diameter-of-binary-tree.py) |
 
-**Total solved: 68**
+**Total solved: 78**
