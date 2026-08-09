@@ -8,21 +8,18 @@ class ListNode:
         self.next = next
 
 class Solution:
-    def rotateRight(self, head, k):
+    def rotateRight(self, head, k: int):
         if not head or not head.next:
             return head
-        length = 1
         tail = head
+        n = 1
         while tail.next:
             tail = tail.next
-            length += 1
-        k %= length
-        if k == 0:
-            return head
-        new_tail = head
-        for _ in range(length - k - 1):
-            new_tail = new_tail.next
-        new_head = new_tail.next
-        new_tail.next = None
+            n += 1
         tail.next = head
-        return new_head
+        k = k % n
+        for _ in range(n - k):
+            tail = tail.next
+        head = tail.next
+        tail.next = None
+        return head
