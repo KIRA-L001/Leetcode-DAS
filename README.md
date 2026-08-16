@@ -141,8 +141,10 @@ docstring (problem summary, approach, complexity) and a runnable test block
 || 876 | Middle of the Linked List | Easy | [0876-middle-of-the-linked-list.py](0876-middle-of-the-linked-list.py) |
 || 931 | Minimum Falling Path Sum | Medium | [0931-minimum-falling-path-sum.py](0931-minimum-falling-path-sum.py) |
 || 973 | K Closest Points to Origin | Medium | [0973-k-closest-points-to-origin.py](0973-k-closest-points-to-origin.py) |
+|| 1009 | Complement of Base 10 Integer | Easy | [1009-complement-of-base-10-integer.py](1009-complement-of-base-10-integer.py) |
 || 1046 | Last Stone Weight | Easy | [1046-last-stone-weight.py](1046-last-stone-weight.py) |
 || 1089 | Duplicate Zeros | Easy | [1089-duplicate-zeros.py](1089-duplicate-zeros.py) |
+|| 1108 | Defanging an IP Address | Easy | [1108-defanging-an-ip-address.py](1108-defanging-an-ip-address.py) |
 || 1260 | Shuffle the Array | Easy | [1260-shuffle-the-array.py](1260-shuffle-the-array.py) |
 || 1281 | Subtract the Product and Sum of Digits of a Number | Easy | [1281-subtract-product-and-sum.py](1281-subtract-product-and-sum.py) |
 || 1287 | Element Appearing More Than 25% In Array | Easy | [1287-element-appearing-more-than-25.py](1287-element-appearing-more-than-25.py) |
@@ -151,5 +153,13 @@ docstring (problem summary, approach, complexity) and a runnable test block
 || 1360 | Number of Days Between Two Dates | Easy | [1360-number-of-days-between-two-dates.py](1360-number-of-days-between-two-dates.py) |
 || 1389 | Create Target Array in the Given Order | Easy | [1389-create-target-array-in-given-order.py](1389-create-target-array-in-given-order.py) |
 || 1460 | Make Two Arrays Equal | Easy | [1460-make-two-arrays-equal.py](1460-make-two-arrays-equal.py) |
+|| 1470 | Shuffle the Array | Easy | [1470-shuffle-the-array.py](1470-shuffle-the-array.py) |
+|| 1480 | Running Sum of 1d Array | Easy | [1480-running-sum-of-1d-array.py](1480-running-sum-of-1d-array.py) |
+|| 1512 | Number of Good Pairs | Easy | [1512-number-of-good-pairs.py](1512-number-of-good-pairs.py) |
+|| 1672 | Richest Customer Wealth | Easy | [1672-richest-customer-wealth.py](1672-richest-customer-wealth.py) |
+|| 1920 | Build Array from Permutation | Easy | [1920-build-array-from-permutation.py](1920-build-array-from-permutation.py) |
+|| 1929 | Concatenation of Array | Easy | [1929-concatenation-of-array.py](1929-concatenation-of-array.py) |
+|| 2011 | Final Value of Variable After Performing Operations | Easy | [2011-final-value-of-variable-after-performing-operations.py](2011-final-value-of-variable-after-performing-operations.py) |
+|| 2235 | Add Two Integers | Easy | [2235-add-two-integers.py](2235-add-two-integers.py) |
 
-**Total solved: 156**
+**Total solved: 153**
