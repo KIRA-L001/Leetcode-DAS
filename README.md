@@ -161,5 +161,15 @@ docstring (problem summary, approach, complexity) and a runnable test block
 || 1929 | Concatenation of Array | Easy | [1929-concatenation-of-array.py](1929-concatenation-of-array.py) |
 || 2011 | Final Value of Variable After Performing Operations | Easy | [2011-final-value-of-variable-after-performing-operations.py](2011-final-value-of-variable-after-performing-operations.py) |
 || 2235 | Add Two Integers | Easy | [2235-add-two-integers.py](2235-add-two-integers.py) |
+|| 2535 | Difference Between Element Sum and Digit Sum of an Array | Easy | [2535-difference-between-element-sum-and-digit-sum-of-an-array.py](2535-difference-between-element-sum-and-digit-sum-of-an-array.py) |
+|| 2553 | Separate the Digits in an Array | Easy | [2553-separate-the-digits-in-an-array.py](2553-separate-the-digits-in-an-array.py) |
+|| 2558 | Take Gifts From the Richest Pile | Easy | [2558-take-gifts-from-the-richest-pile.py](2558-take-gifts-from-the-richest-pile.py) |
+|| 2566 | Maximum Difference by Remapping a Digit | Easy | [2566-maximum-difference-by-remapping-a-digit.py](2566-maximum-difference-by-remapping-a-digit.py) |
+|| 2570 | Merge Two 2D Arrays by Summing Values | Easy | [2570-merge-two-2d-arrays-by-summing-values.py](2570-merge-two-2d-arrays-by-summing-values.py) |
+|| 2574 | Left and Right Sum Differences | Easy | [2574-left-and-right-sum-differences.py](2574-left-and-right-sum-differences.py) |
+|| 2582 | Pass the Pillow | Easy | [2582-pass-the-pillow.py](2582-pass-the-pillow.py) |
+|| 2639 | Find the Width of Columns of a Grid | Easy | [2639-find-the-width-of-columns-of-a-grid.py](2639-find-the-width-of-columns-of-a-grid.py) |
+|| 2640 | Find the Score of All Prefixes of an Array | Easy | [2640-find-the-score-of-all-prefixes-of-an-array.py](2640-find-the-score-of-all-prefixes-of-an-array.py) |
+|| 2652 | Sum Multiples | Easy | [2652-sum-multiples.py](2652-sum-multiples.py) |
 
-**Total solved: 153**
+**Total solved: 163**
