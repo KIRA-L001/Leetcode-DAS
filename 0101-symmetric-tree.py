@@ -12,10 +12,10 @@ class TreeNode:
 
 class Solution:
     def isSymmetric(self, root: Optional[TreeNode]) -> bool:
-        def isMirror(p, q):
-            if not p and not q:
+        def mirror(a, b):
+            if not a and not b:
                 return True
-            if not p or not q:
+            if not a or not b:
                 return False
-            return p.val == q.val and isMirror(p.left, q.right) and isMirror(p.right, q.left)
-        return isMirror(root, root)
+            return a.val == b.val and mirror(a.left, b.right) and mirror(a.right, b.left)
+        return mirror(root.left, root.right) if root else True
