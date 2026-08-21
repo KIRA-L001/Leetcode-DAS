@@ -1,25 +1,8 @@
-"""
-LeetCode 0136 - Single Number (Easy)
+from typing import List
+class Solution:
+    def singleNumber(self, nums: List[int]) -> int:
+        r = 0
+        for n in nums: r ^= n
+        return r
 
-Every element appears twice except one; find it in O(n)/O(1).
-
-Approach: XOR of the whole array. Pairs cancel (a ^ a = 0), leaving
-only the unique element.
-
-Time:  O(n)
-Space: O(1)
-"""
-
-from functools import reduce
-from operator import xor
-
-
-def single_number(nums: list[int]) -> int:
-    return reduce(xor, nums)
-
-
-if __name__ == "__main__":
-    assert single_number([2, 2, 1]) == 1
-    assert single_number([4, 1, 2, 1, 2]) == 4
-    assert single_number([1]) == 1
-    print("0136 OK")
+# refreshed 20260821-102318
