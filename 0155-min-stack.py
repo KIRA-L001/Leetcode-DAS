@@ -1,22 +1,10 @@
-"""
-LeetCode #155 - Min Stack
-Difficulty: Medium
-"""
 class MinStack:
-    def __init__(self):
-        self.stack = []
-        self.min_stack = []
-
+    def __init__(self): self.s = []
     def push(self, val: int) -> None:
-        self.stack.append(val)
-        self.min_stack.append(min(val, self.min_stack[-1]) if self.min_stack else val)
+        m = val if not self.s else min(val, self.s[-1][1])
+        self.s.append((val, m))
+    def pop(self) -> None: self.s.pop()
+    def top(self) -> int: return self.s[-1][0]
+    def getMin(self) -> int: return self.s[-1][1]
 
-    def pop(self) -> None:
-        self.stack.pop()
-        self.min_stack.pop()
-
-    def top(self) -> int:
-        return self.stack[-1]
-
-    def getMin(self) -> int:
-        return self.min_stack[-1]
+# refreshed 20260821-102507
