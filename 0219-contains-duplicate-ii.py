@@ -6,3 +6,5 @@ class Solution:
             if n in seen and i - seen[n] <= k: return True
             seen[n] = i
         return False
+
+# refreshed 20260821-102507
