@@ -1,11 +1,7 @@
-"""
-LeetCode #268 - Missing Number
-Difficulty: Easy
-"""
 from typing import List
-
 class Solution:
     def missingNumber(self, nums: List[int]) -> int:
         n = len(nums)
-        total = n * (n + 1) // 2
-        return total - sum(nums)
+        return n*(n+1)//2 - sum(nums)
+
+# refreshed 20260821-102507
