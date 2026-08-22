@@ -1,22 +1,11 @@
-"""
-LeetCode #203 - Remove Linked List Elements
-Difficulty: Easy
-"""
 class ListNode:
-    def __init__(self, val=0, next=None):
-        self.val = val
-        self.next = next
-
+    def __init__(self, val=0, next=None): self.val = val; self.next = next
 class Solution:
-    def removeElements(self, head, val):
-        dummy = ListNode(0)
-        dummy.next = head
-        prev = dummy
-        curr = head
-        while curr:
-            if curr.val == val:
-                prev.next = curr.next
-            else:
-                prev = curr
-            curr = curr.next
+    def removeElements(self, head, val: int):
+        dummy = ListNode(0, head); cur = dummy
+        while cur.next:
+            if cur.next.val == val: cur.next = cur.next.next
+            else: cur = cur.next
         return dummy.next
+
+# refreshed 20260822-140033
