@@ -1,14 +1,10 @@
-"""
-LeetCode #121 - Best Time to Buy and Sell Stock
-Difficulty: Easy
-"""
 from typing import List
-
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
-        min_price = float('inf')
-        max_profit = 0
-        for price in prices:
-            min_price = min(min_price, price)
-            max_profit = max(max_profit, price - min_price)
-        return max_profit
+        best = 0; low = float('inf')
+        for p in prices:
+            low = min(low, p)
+            best = max(best, p - low)
+        return best
+
+# refreshed 20260824-013656
