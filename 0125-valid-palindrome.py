@@ -1,8 +1,7 @@
-"""
-LeetCode #125 - Valid Palindrome
-Difficulty: Easy
-"""
+import re
 class Solution:
     def isPalindrome(self, s: str) -> bool:
-        filtered = [c.lower() for c in s if c.isalnum()]
-        return filtered == filtered[::-1]
+        t = re.sub(r'[^a-zA-Z0-9]', '', s).lower()
+        return t == t[::-1]
+
+# refreshed 20260823-123438
