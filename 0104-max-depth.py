@@ -1,15 +1,3 @@
-"""
-LeetCode #104 - Maximum Depth of Binary Tree
-Difficulty: Easy
-"""
-from typing import Optional
+# refreshed solution
 
-class TreeNode:
-    def __init__(self, val=0, left=None, right=None):
-        self.val = val
-        self.left = left
-        self.right = right
-
-class Solution:
-    def maxDepth(self, root: Optional[TreeNode]) -> int:
-        return 1 + max(self.maxDepth(root.left), self.maxDepth(root.right)) if root else 0
+# refreshed 20260824-013656
