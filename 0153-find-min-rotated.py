@@ -7,3 +7,5 @@ class Solution:
             if nums[mid] > nums[hi]: lo = mid+1
             else: hi = mid
         return nums[lo]
+
+# refreshed 20260823-180036
