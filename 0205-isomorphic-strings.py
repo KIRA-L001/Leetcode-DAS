@@ -1,9 +1,5 @@
-"""
-LeetCode #205 - Isomorphic Strings
-Difficulty: Easy
-"""
 class Solution:
     def isIsomorphic(self, s: str, t: str) -> bool:
-        if len(s) != len(t):
-            return False
-        return len(set(s)) == len(set(t)) == len(set(zip(s, t)))
+        return len(set(zip(s, t))) == len(set(s)) == len(set(t))
+
+# refreshed 20260823-180036
