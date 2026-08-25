@@ -11,3 +11,5 @@ class Solution:
         while q:
             p.next, p = q, p.next
             q.next, q = p, q.next
+
+# refreshed 20260825-123515
