@@ -1,14 +1,10 @@
-"""
-LeetCode #278 - First Bad Version
-Difficulty: Easy
-"""
 class Solution:
-    def firstBadVersion(self, n):
-        left, right = 1, n
-        while left < right:
-            mid = (left + right) // 2
-            if isBadVersion(mid):
-                right = mid
-            else:
-                left = mid + 1
-        return left
+    def firstBadVersion(self, n: int, isBad=None) -> int:
+        lo, hi = 1, n
+        while lo < hi:
+            mid = (lo+hi)//2
+            if isBad(mid): hi = mid
+            else: lo = mid+1
+        return lo
+
+# refreshed 20260825-123515
