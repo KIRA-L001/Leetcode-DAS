@@ -10,3 +10,5 @@ class Solution:
                 while slow is not fast: slow = slow.next; fast = fast.next
                 return slow
         return None
+
+# refreshed 20260825-123515
