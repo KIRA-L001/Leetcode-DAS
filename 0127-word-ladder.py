@@ -15,3 +15,5 @@ class Solution:
                         words.discard(nw)
                         q.append((nw, d + 1))
         return 0
+
+# refreshed 20260828-112805
