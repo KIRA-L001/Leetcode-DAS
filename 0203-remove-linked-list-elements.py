@@ -8,4 +8,4 @@ class Solution:
             else: cur = cur.next
         return dummy.next
 
-# refreshed 20260822-140033
+# refreshed 20260828-112805
