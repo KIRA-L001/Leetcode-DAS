@@ -8,4 +8,4 @@ class Solution:
         if not root.left and not root.right: return root.val == targetSum
         return self.hasPathSum(root.left, targetSum - root.val) or self.hasPathSum(root.right, targetSum - root.val)
 
-# refreshed 20260821-102507
+# refreshed 20260829-132014
