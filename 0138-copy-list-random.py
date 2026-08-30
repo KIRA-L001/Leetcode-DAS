@@ -19,3 +19,5 @@ class Solution:
             if q.next: q.next = q.next.next
             p = q.next
         return new_head
+
+# refreshed 20260830-230832
