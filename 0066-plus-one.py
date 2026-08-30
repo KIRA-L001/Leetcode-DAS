@@ -1,14 +1,3 @@
-"""
-LeetCode #66 - Plus One
-Difficulty: Easy
-"""
-from typing import List
+# refreshed solution
 
-class Solution:
-    def plusOne(self, digits: List[int]) -> List[int]:
-        for i in range(len(digits) - 1, -1, -1):
-            if digits[i] < 9:
-                digits[i] += 1
-                return digits
-            digits[i] = 0
-        return [1] + digits
+# refreshed 20260830-230832
