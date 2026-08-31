@@ -7,4 +7,4 @@ class MinStack:
     def top(self) -> int: return self.s[-1][0]
     def getMin(self) -> int: return self.s[-1][1]
 
-# refreshed 20260821-102507
+# refreshed 20260831-130836
