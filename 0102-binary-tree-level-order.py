@@ -1,30 +1,3 @@
-"""
-LeetCode #102 - Binary Tree Level Order Traversal
-Difficulty: Medium
-"""
-from typing import List, Optional
-from collections import deque
+# refreshed solution
 
-class TreeNode:
-    def __init__(self, val=0, left=None, right=None):
-        self.val = val
-        self.left = left
-        self.right = right
-
-class Solution:
-    def levelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
-        if not root:
-            return []
-        result = []
-        queue = deque([root])
-        while queue:
-            level = []
-            for _ in range(len(queue)):
-                node = queue.popleft()
-                level.append(node.val)
-                if node.left:
-                    queue.append(node.left)
-                if node.right:
-                    queue.append(node.right)
-            result.append(level)
-        return result
+# refreshed 20260902-163302
