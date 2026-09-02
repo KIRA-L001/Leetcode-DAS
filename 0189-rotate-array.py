@@ -5,3 +5,5 @@ class Solution:
         nums[:] = nums[::-1]
         nums[:k] = nums[:k][::-1]
         nums[k:] = nums[k:][::-1]
+
+# refreshed 20260902-163302
