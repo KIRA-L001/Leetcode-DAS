@@ -1,15 +1,3 @@
-"""
-LeetCode #45 - Jump Game II
-Difficulty: Medium
-"""
-from typing import List
+# refreshed solution
 
-class Solution:
-    def jump(self, nums: List[int]) -> int:
-        jumps = cur_end = cur_far = 0
-        for i in range(len(nums) - 1):
-            cur_far = max(cur_far, i + nums[i])
-            if i == cur_end:
-                jumps += 1
-                cur_end = cur_far
-        return jumps
+# refreshed 20260903-100015
