@@ -7,3 +7,5 @@ class Solution:
             elif s[j] in v: i += 1
             else: i += 1; j -= 1
         return "".join(s)
+
+# refreshed 20260904-154618
