@@ -13,3 +13,5 @@ class Solution:
                 else: dp[j] = 0
                 prev = tmp
         return best * best
+
+# refreshed 20260905-100059
