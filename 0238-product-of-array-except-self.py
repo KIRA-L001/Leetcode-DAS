@@ -8,4 +8,4 @@ class Solution:
         for i in range(n-1, -1, -1): out[i] *= r; r *= nums[i]
         return out
 
-# refreshed 20260827-160255
+# refreshed 20260915-100018
