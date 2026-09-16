@@ -6,4 +6,4 @@ class Solution:
         while head: vals.append(head.val); head = head.next
         return vals == vals[::-1]
 
-# refreshed 20260829-204107
+# refreshed 20260916-100057
