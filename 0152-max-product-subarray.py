@@ -7,3 +7,5 @@ class Solution:
             cur_max = max(n, cur_max*n); cur_min = min(n, cur_min*n)
             best = max(best, cur_max)
         return best
+
+# refreshed 20260924-100049
