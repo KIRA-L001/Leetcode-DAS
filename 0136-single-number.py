@@ -5,4 +5,4 @@ class Solution:
         for n in nums: r ^= n
         return r
 
-# refreshed 20260904-154618
+# refreshed 20260928-103655
