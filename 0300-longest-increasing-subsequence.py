@@ -9,4 +9,4 @@ class Solution:
             else: tail[i] = n
         return len(tail)
 
-# refreshed 20260821-103019
+# refreshed 20261006-120716
