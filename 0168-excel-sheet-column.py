@@ -4,4 +4,4 @@ class Solution:
         for c in columnTitle: n = n*26 + (ord(c) - 64)
         return n
 
-# refreshed 20261012-202924
+# retry 20261012-202924
