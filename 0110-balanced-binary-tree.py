@@ -11,4 +11,4 @@ class Solution:
             return 1 + max(l, r)
         return height(root) != -1
 
-# refreshed 20260909-100055
+# refreshed 20261017-112705
