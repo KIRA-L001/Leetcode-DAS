@@ -9,4 +9,4 @@ class Solution:
             return cur
         return max(helper(nums[:-1]), helper(nums[1:]))
 
-# refreshed 20260829-204107
+# refreshed 20261030-100018
