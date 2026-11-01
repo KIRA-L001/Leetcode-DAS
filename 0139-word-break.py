@@ -7,4 +7,4 @@ class Solution:
                 if dp[j] and s[j:i] in words: dp[i] = True; break
         return dp[-1]
 
-# refreshed 20261031-130858
+# refreshed 20261101-100028
