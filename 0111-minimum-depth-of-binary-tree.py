@@ -9,4 +9,4 @@ class Solution:
         if not root.right: return 1 + self.minDepth(root.left)
         return 1 + min(self.minDepth(root.left), self.minDepth(root.right))
 
-# refreshed 20261101-100028
+# refreshed 20261102-100014
