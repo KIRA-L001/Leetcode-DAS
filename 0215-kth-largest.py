@@ -3,4 +3,4 @@ class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:
         return sorted(nums, reverse=True)[k-1]
 
-# refreshed 20260907-182744
+# refreshed 20261104-100019
