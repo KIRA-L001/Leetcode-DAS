@@ -5,4 +5,4 @@ class NumArray:
     def sumRange(self, left: int, right: int) -> int:
         return self.pre[right+1] - self.pre[left]
 
-# refreshed 20260915-100018
+# refreshed 20261112-100033
