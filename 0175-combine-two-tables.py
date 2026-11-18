@@ -7,4 +7,4 @@ class Solution:
                  "city": m.get(p["personId"], {}).get("city"),
                  "state": m.get(p["personId"], {}).get("state")} for p in person]
 
-# refreshed 20261003-145953
+# refreshed 20261118-100046
