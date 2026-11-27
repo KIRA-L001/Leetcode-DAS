@@ -8,4 +8,4 @@ class Solution:
             b = b.next if b else headA
         return a
 
-# refreshed 20261114-100032
+# refreshed 20261127-100054
